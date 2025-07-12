@@ -1,0 +1,15 @@
+streamlit
+langchain_core
+langchain_community
+langchain_ollama
+langchain-ollama
+langchain-core
+pdfplumber
+googlesearch-python
+requests
+beautifulsoup4
+firebase-admin
+streamlit-authenticator
+pyyaml
+bcrypt
+python-dotenv
