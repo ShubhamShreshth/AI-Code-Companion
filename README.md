@@ -16,10 +16,6 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## Environment Variables
-
-The application uses environment variables for secure configuration. See `ENV_SETUP.md` for detailed setup instructions.
-
 ## Features
 
 - 🔐 Firebase Authentication
