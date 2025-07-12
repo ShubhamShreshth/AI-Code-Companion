@@ -10,19 +10,7 @@ A Streamlit-based AI coding assistant with Firebase integration and Ollama suppo
 pip install -r requirements.txt
 ```
 
-### 2. Set Up Environment Variables
-
-**Option A: Use the migration script (recommended)**
-```bash
-python migrate_to_env.py
-```
-
-**Option B: Manual setup**
-1. Copy your Firebase service account JSON to the project directory
-2. Create a `.env` file following the template in `ENV_SETUP.md`
-3. Copy the values from your JSON file to the `.env` file
-
-### 3. Run the Application
+### 2. Run the Application
 
 ```bash
 streamlit run app.py
