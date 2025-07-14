@@ -29,7 +29,7 @@ RUN echo "[supervisord]\nnodaemon=true\n" \
 EXPOSE 11434 7860
 
 # Optionally pull your desired Ollama model(s) at build time
-RUN ollama pull llama3.2:3b
+RUN ollama serve && ollama pull llama3.2:1b
 
 # Start both services
 CMD ["/usr/bin/supervisord", "-c", "/etc/supervisor/conf.d/supervisord.conf"] 
